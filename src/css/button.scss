@@ -1,0 +1,38 @@
+.action-button {
+  border: none;
+  border-radius: 0.5rem;
+  outline: none;
+  padding: 0.8rem 1rem;
+  background-color: $grey-light;
+  color: $grey-normal;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+
+  &:hover {
+    background-color: #eef0f5;
+  }
+}
+
+.action-button-primary {
+  background-color: white;
+  color: $primary-color;
+}
+
+.button-red {
+  color: white;
+  background-color: #C0595B;
+
+  &:hover {
+    background-color: rgb(184, 86, 88);
+  }
+}
+
+.button-green {
+  color: white;
+  background-color: #2EC36B;
+
+  &:hover {
+    background-color: #27bb65;
+  }
+}
